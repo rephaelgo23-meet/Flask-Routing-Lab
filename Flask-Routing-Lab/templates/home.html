@@ -7,7 +7,18 @@
 <body>
 
 	<h1>Ebay</h1>
-	<button onclick="window.location.href='/product'"><h3>Electric Scooter</h3></button>
+	<div>
+		<button onclick="window.location.href='/product'">
+			<img src="https://cdn.webshopapp.com/shops/267350/files/353318645/650x650x2/xiaomi-xiaomi-mi-essential-electric-scooter.jpg">
+		</button>
+		<h3 style="align-content: center;">Electric Scooter</h3>
+	</div>
+	<div>
+		<button onclick="window.location.href='/cart'">
+			<img src="https://static.vecteezy.com/system/resources/previews/004/999/463/original/shopping-cart-icon-illustration-free-vector.jpg">
+		</button>
+		<h3 style="align-content: center;">Cart</h3>
+	</div>
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 </body>
 </html>
